@@ -27,7 +27,15 @@
             <th>{{tasks.person}}</th>
             <th><a href="{{tasks.id}}/delete">X</a></th>
         </tr>
+        
         {% endfor %}
+        <tr>
+            <th>Total Time</th>
+            <th>{{sumtime}}</th>
+            <th></th>
+            <th></th>
+
+        </tr>
     </table>
     <hr>
         {% else %}
